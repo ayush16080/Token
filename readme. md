@@ -1,0 +1,41 @@
+# Token Smart Contract
+
+## Overview
+
+The Token smart contract is a Solidity-based program designed for creating and managing tokens on the Ethereum blockchain. It allows for the minting and burning of tokens, tracks balances, and manages the total supply. This contract is a simple introduction to token management and serves as a foundation for more advanced projects.
+
+## Description
+
+This Solidity smart contract provides basic functionality for token creation and supply management. Users can mint (create) new tokens and burn (destroy) existing tokens, which adjusts the total supply. This contract is ideal for learning about token operations on Ethereum and can be extended for more complex applications.
+
+## Getting Started
+
+To use this contract, follow these steps using [Remix](https://remix.ethereum.org/), an online Solidity IDE:
+
+1. **Create a New File**:
+   - Click the "+" icon in the left-hand sidebar.
+   - Save the file with a `.sol` extension (e.g., `Token.sol`).
+   - Copy and paste the contract code into this file.
+
+2. **Compile the Code**:
+   - Go to the "Solidity Compiler" tab in the left-hand sidebar.
+   - Set the compiler version to `0.8.18` or another compatible version.
+   - Click the "Compile Token.sol" button.
+
+3. **Deploy the Contract**:
+   - Navigate to the "Deploy & Run Transactions" tab in the left-hand sidebar.
+   - Select the "Token" contract from the dropdown menu.
+   - Click the "Deploy" button to deploy the contract to the blockchain.
+
+4. **Interact with the Contract**:
+   - After deployment, you can interact with the contract using the provided functions.
+   - To mint tokens, input the recipient's address and the amount, then call the `mint` function.
+   - To burn tokens, input the address and the amount, then call the `burn` function.
+
+## Authors
+
+Ayush Guleria
+
+## License
+
+This project is licensed under the MIT License.
